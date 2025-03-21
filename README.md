@@ -1,2 +1,17 @@
-# brain-tumor-detection
-This project implements a deep learning-based approach for brain tumor detection and segmentation using MRI scans. A U-Net architecture is employed for pixel-level tumor segmentation, and Grad-CAM is integrated to visualize the model’s focus areas, ensuring transparency and interpretability.
+# Brain Tumor Detection with U-Net & Grad-CAM
+
+This project uses a U-Net model with Grad-CAM for brain tumor segmentation from MRI images.
+
+## Features
+- U-Net based segmentation
+- Grad-CAM visualization for explainability
+- High accuracy (99.15%) and precision (99.31%)
+
+## Dataset
+Used a public Kaggle MRI dataset. [Link to Dataset]( https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
+
+## Usage
+```bash
+pip install -r requirements.txt
+python main.py
+
